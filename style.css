@@ -1,0 +1,146 @@
+/*
+:root {
+    --backgo: rgb(35, 35, 35);
+}*/
+
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+
+#container {
+    display: flex;
+}
+
+/* container */
+.col-6  {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.mt-4 {
+    padding: 3px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+
+
+div h5 {
+    text-align: center;
+
+}
+
+
+.custom-cen {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+}
+
+
+
+#dinheiro {
+    width: 100px;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 4px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+
+.ajuste {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+}
+#date {
+    width: auto;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 4px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+#lote{
+    width: 100px;
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 4px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+
+
+/*-----------------------------------------------*/
+
+/*  Tipo de produto / produto */
+
+.mt-10 {
+    display: flex;
+}
+
+
+
+
+/*--------------------------------------------*/
+
+#container-inf {
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+}
+
+.inf-titte {
+    border: 1px solid rgb(0, 0, 0);
+    width: 150px;
+}
+
+.inf-res {
+    border: 1px solid rgb(55, 20, 183);
+}
+
+
+/*-----------------------------------------*/
+
+table.blueTable {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    height: 1px;
+    text-align: center;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 3px;
+  }
+  table.blueTable tbody td {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.blueTable thead {
+      border-bottom: 2px solid #444444;
+  }
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+
+/*-----------------------------------------*/
